@@ -44,6 +44,7 @@ public class E2CanvasMultiSaveView extends BaseView {
         // 两次出栈
         canvas.restore();
         canvas.restore();
+        canvas.restore();
         canvas.drawColor(Color.YELLOW);
 
     }
